@@ -2,24 +2,21 @@
 body {
     margin: 0;
     text-align: center;
-    /* font-family: 'Merriweather', serif; */
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;    
+    color: black;
 }
 
 h1 {
     margin: 50px auto 0px auto;
-    /*font-family: 'Sacramento', cursive;*/
     font-family: monospace;
     font-size: 5.625rem;
-    color: #66BFBF;
+    color: #11999E;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    /* color: #66BFBF; */
-    color: #49FF00;
+    color: #32a800;
     font-weight: bold;
 }
 
@@ -31,7 +28,7 @@ h3 {
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #49FF00;
+    border-color: #32a800;
     border-width: 5px;
     width: 2%;
     position: relative;
@@ -42,156 +39,72 @@ hr {
 a {
     font-family: 'Montserrat', sans-serif;
     display: inline-block;
-    color: #66BFBF;
+    color: #11999E;
     font-weight: bold;
+}
+
+a:hover {
+    color: #32a800;
 }
 
 .btn {
     -webkit-border-radius: 60;
     -moz-border-radius: 60;
     border-radius: 60px;
-    font-family: Courier New;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     background: #32a800;
     padding: 10px 20px 10px 20px;
     margin: 20px auto 30px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #66BFBF;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+
+.btn:hover {
+    background: #66BFBF;   
+    background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+    background-image: -moz-linear-gradient(top, #11999E, #11999E);
+    background-image: -ms-linear-gradient(top, #11999E, #11999E);
+    background-image: -o-linear-gradient(top, #11999E, #11999E);
+    background-image: linear-gradient(to bottom, #11999E, #11999E);
     text-decoration: none;
-  }
+}
+
+/* NAVBAR */
+.nav-link {
+    color: #32a800;
+}
 
 /****CLASS SELECTOR****/
 .top-container {
-    /* background-color: black; */
-    height: 300px;
+    margin: 5% 30%;
 }
 
-/* .middle-container { 
-    background-color: rgb(56, 56, 56);
-} */
+.middle-container {
+    margin: 5% 20%;
+}
 
 .bottom-container {
-    background-color: black;
-    height: 100px;
+    margin: 5% 30%;
 }
 
-.intro {   
-    text-align: left;
-    display: inline-block;
-    width: 50%;
-    position: absolute;
-    right: 150px;
+/* CONTENT TO DISPLAY */
+
+.script-container {
+    margin: 0 10%;
 }
-
-.dev {
-    /* text-decoration: underline; */
-    /* color: #49FF00;     */
-    /* color: #ffffff; */
-    color: #66BFBF
-}
-
-.code-gif {    
-    width: 10%;;
-    margin-right: 10px;
-    position: absolute;
-    left: 350px;
-    top: 100px;
-}
-
-.skill-row {
-    margin: 50px auto;
-    text-align: left;
-    line-height: 2;
-    display: inline-block;
-}
-
-.game-development-image {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.coding-image {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-}
-
-
-.footer-link {
-    position: relative;
-    top: 20%;
-    margin: auto 50px auto;
-}
-
-.copyright {
-    margin-top: 40px;
-    color: white;    
-    font-family: monospace;
-}
-
-.header {    
-    background-color: black;
-    width: 100%;
-    height: 60px;
-    position: fixed;    
-    font-family: monospace;    
-    color: #49FF00;
-}
-
-.header-content {    
-    display: inline-block;
-    position: absolute;
-    left: 20px;
-    margin: 0;
-    font-size: 1.2rem;
-    font-weight: bold
-}
-
-p {
-    color: black;
-}
-
-
-.useful-codes {
-    padding: 50px 0px;
-}
-
-.col-header {
-    background-color: black;   
-}
-
-.col-header h2 {
-    color: white;
-    margin: 20px auto;
-    font-family: 'Montserrat', sans-serif;
-}
-
 
 .col {
-    border: 1px solid #333;
-    padding: 100px;
-    
+    margin: 0 1%;
 }
 
-thead,
-tfoot {
-    background-color: black;
-    color: #11999E;
-    padding: 50px 0px;
+.script-title {
+    padding: 0;
+    text-align: left;
 }
 
-.script-link:hover {
-    color: #49FF00;
+.script-content {
+    text-align: left;
 }
 
 /***ID SELECTOR****/

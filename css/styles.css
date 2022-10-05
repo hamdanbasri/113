@@ -124,6 +124,15 @@ a:hover {
 }
 
 /* NAVBAR */
+.navbar-brand {    
+    font-family: monospace;
+    font-size: 40px;
+    display: flex;
+    margin-left: 1%;
+    align-content: left;
+
+}
+
 .nav-link {
     color: #32a800;
 }

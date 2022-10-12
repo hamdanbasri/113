@@ -28,7 +28,7 @@
     "SniperPickupAmmoCount" : "8",
     "SniperRange" : "100",
     "HealthPickupAmount" : "30",
-    "TreasureCount" : "1",
+    "TreasureCount" : "5",
     "EventName" : "Free Roam",
     "EnableTreasureHunt" : "Yes",
     "EnablePVP" : "Yes",

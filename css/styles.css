@@ -248,4 +248,10 @@ a:hover {
     }
 }
 
+.game-info {
+    padding-top: 15px;
+    align-items: center;
+    text-align: left;
+}
+
 /***ID SELECTOR****/

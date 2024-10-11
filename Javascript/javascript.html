@@ -11,7 +11,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     <!-- CSS STYLESHEET -->
-    <link rel="stylesheet" href="javascript.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -77,39 +77,93 @@
 
     <!-- HIGHLIGHTS CONTAINTER -->
     <section>
-        <h3>Beginner Project</h3>
-        <h4>Calculator</h4>
-        <p>Inspired by Bro Code <a href="https://youtu.be/I5kj-YsmWjM?si=HyG3uT3PkRQ1FA5d" target="_blank">tutorial</a>.</p>
+        <h3>Beginner Projects</h3>
+        <br>
+        <p>Just having fun with what I have learnt and try to customize it to my own design.</p>
         <div class="script-container">
             <div class="row justify-content-md-center">
                 <div class="col-sm">
-                    <div id="calculator">
-                        <input id="display" readonly>
-                        <div id="keys">
-                            <button onclick="clearDisplay()" class="operator-btn">C</button>
-                            <button disabled></button>
-                            <button></button>
-                            <button onclick="appendToDisplay('/')" class="operator-btn">&divide</button>
+                    <h4>Calculator</h4>
+                    <p>Inspired by Bro Code <a href="https://youtu.be/I5kj-YsmWjM?si=HyG3uT3PkRQ1FA5d"
+                            target="_blank">tutorial</a>.</p>
 
-                            <button onclick="appendToDisplay('7')">7</button>
-                            <button onclick="appendToDisplay('8')">8</button>
-                            <button onclick="appendToDisplay('9')">9</button>
-                            <button onclick="appendToDisplay('*')" class="operator-btn">&times</button>
+                    <div class="row justify-content-md-center">
+                        <div id="calculator">
+                            <input id="display" readonly type="text" placeholder="0">
+                            <div id="keys">
+                                <button onclick="clearDisplay()" class="operator-btn">C</button>
+                                <button disabled>()</button>
+                                <button disabled>%</button>
+                                <button onclick="appendToDisplay('/')" class="operator-btn">&divide</button>
 
-                            <button onclick="appendToDisplay('4')">4</button>
-                            <button onclick="appendToDisplay('5')">5</button>
-                            <button onclick="appendToDisplay('6')">6</button>
-                            <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+                                <button onclick="appendToDisplay('7')">7</button>
+                                <button onclick="appendToDisplay('8')">8</button>
+                                <button onclick="appendToDisplay('9')">9</button>
+                                <button onclick="appendToDisplay('*')" class="operator-btn">&times</button>
 
-                            <button onclick="appendToDisplay('1')">1</button>
-                            <button onclick="appendToDisplay('2')">2</button>
-                            <button onclick="appendToDisplay('3')">3</button>
-                            <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+                                <button onclick="appendToDisplay('4')">4</button>
+                                <button onclick="appendToDisplay('5')">5</button>
+                                <button onclick="appendToDisplay('6')">6</button>
+                                <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
 
-                            <button></button>
-                            <button onclick="appendToDisplay('0')">0</button>
-                            <button onclick="appendToDisplay('.')">.</button>
-                            <button onclick="calculate()" class="operator-btn">=</button>
+                                <button onclick="appendToDisplay('1')">1</button>
+                                <button onclick="appendToDisplay('2')">2</button>
+                                <button onclick="appendToDisplay('3')">3</button>
+                                <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
+
+                                <button disabled></button>
+                                <button onclick="appendToDisplay('0')">0</button>
+                                <button onclick="appendToDisplay('.')">.</button>
+                                <button onclick="calculate()" class="operator-btn">=</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <div class="row justify-content-md-center">
+                        <h4>Rock Paper Scissors</h4>
+                        <p>Inspired by Super Simple Dev <a href="https://youtu.be/EerdGm-ehJQ?si=rIa3zyoW7ABfk4F6"
+                                target="_blank">tutorial</a>.</p>
+
+                        <div id="rockpaperscissors">
+                            <img src="../images/rock-paper-scissors.png" alt="Rock Paper Scissors" width=50%>
+
+                            <p id="matchResult">Beat the computer.</p>
+
+                            <div id="results">
+                                <p>Wins</p>
+                                <p>Losses</p>
+                                <p>Ties</p>
+                                <p id="matchWins">0</p>
+                                <p id="matchLoss">0</p>
+                                <p id="matchTies">0</p>
+                            </div>
+                            <br>
+                            <div id="matchArea">
+                                <button onclick="
+                            playGame('Rock')" class="match-btn">Rock</button>
+
+                                <button onclick="
+                            playGame('Paper')" class="match-btn">Paper</button>
+
+                                <button onclick="
+                            playGame('Scissors')" class="match-btn">Scissors</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm">
+                    <h4>Unit Conversion</h4>
+                    <p>Inspired by Super Simple Dev <a href="https://youtu.be/EerdGm-ehJQ?si=rIa3zyoW7ABfk4F6"
+                            target="_blank">tutorial</a>.</p>
+
+                    <div class="row justify-content-md-center">
+                        <div id="unitConverter">
+                            <p>Temperature</p>
+                            <input id="celciusConverter" type="text" placeholder="°C">
+                            <input id="fahrenheitConverter" type="text" placeholder="°F">
                         </div>
                     </div>
                 </div>

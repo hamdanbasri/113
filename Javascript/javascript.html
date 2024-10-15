@@ -167,8 +167,49 @@
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
+            <hr>
+            <div class="row justify-content-md-center">
+                <div class="col-sm">
+                    <h4>Coin Flip Game</h4>
+                    <p>Inspired by Super Simple Dev <a href="https://youtu.be/EerdGm-ehJQ?si=rIa3zyoW7ABfk4F6"
+                            target="_blank">tutorial</a>.</p>
+
+                    <div class="row justify-content-md-center">
+                        <div id="coinFlip">
+                            <img src="../images/coinflip.png" alt="Coin Flip" width=25%>
+                            <br>
+                            <br>
+                            <p>Heads or Tails?</p>
+                            
+                            <div id="flipResults">
+                                <p>Wins</p>
+                                <p>Losses</p>
+                                <p id="flipMatchWins">0</p>
+                                <p id="flipMatchLoss">0</p>
+                            </div>
+                            <br>
+                            <div id="flipMatchArea">
+                                <button onclick="
+                                playFlipGame('heads')
+                                " class="match-btn">Heads
+                                </button>
+
+                                <button onclick="
+                                playFlipGame('tails')
+                                " class="match-btn">Tails
+                                </button>
+
+                                <button onclick="
+                                ResetFlipGame();
+                                " class="match-btn">Reset
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
     </section>
 

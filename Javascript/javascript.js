@@ -200,4 +200,36 @@ function convertToCelcius(number){
     document.getElementById('celciusConverter').value = `${celcius.toFixed(2)} °C`;
 }
 
+//---- Coin Flip Game ----//
 
+let score = JSON.parse(localStorage.getItem('score')) || {
+    wins: 0,
+    losses: 0
+};
+
+document.getElementById('flipMatchWins').innerText = (`${score.wins}`);
+document.getElementById('flipMatchLoss').innerText = (`${score.losses}`);
+
+function playFlipGame(guess) {
+const randomNumber = Math.random();
+
+const result = randomNumber <= 0.5 ? 'heads' : 'tails';
+
+let finalResult = guess == result ? 'You win' : 'You lose';
+
+finalResult === 'You win' ? score.wins++ : score.losses++;
+
+document.getElementById('flipMatchWins').innerText = (`${score.wins}`);
+document.getElementById('flipMatchLoss').innerText = (`${score.losses}`);
+
+localStorage.setItem('score', JSON.stringify(score));
+}
+
+function ResetFlipGame(){
+    localStorage.removeItem('score');
+
+    score = { wins: 0, losses: 0 };
+
+    document.getElementById('flipMatchWins').innerText = '0';
+    document.getElementById('flipMatchLoss').innerText = '0';
+}

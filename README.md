@@ -5,4 +5,6 @@
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fhamdanbasri%2F113&label=Visitors&countColor=%23263759&style=flat)
 
-113 is a <a href="https://hamdanbasri.github.io/113/">website</a> I created for documentation and sharing information that I find might be helpful to other developers out there. These documentation includes Unity, Unreal Engine and Spark AR. There is also a playable <a href="https://hamdanbasri.github.io/113/atom.html">demo</a> that you could try out.
+113 is a <a href="https://hamdanbasri.github.io/113/">website</a> I created for documentation, sharing information that I find might be helpful to other developers out there as well as serving as my portfolio. These documentation includes Unity, Unreal Engine. There is also a playable <a href="https://hamdanbasri.github.io/113/atom.html">demo</a> that you could try out.
+
+This website itself was also created to push myself to practice web development. The updates that you find in this site are posted at random times so the information might not be relavant to you at certain periods of times in the future.

@@ -2,325 +2,215 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>113 - Unity</title>
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-    <!-- CSS STYLESHEET -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- JAVASCRIPT -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-
-    <!-- FONT AWESOME -->
-    <script src="https://kit.fontawesome.com/87dfa48678.js" crossorigin="anonymous"></script>
-</head>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-    rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>113 — Real-Time 3D & AR</title>
+  <meta name="description" content="Hamdan Basri’s real-time 3D and AR works — Unreal, Unity, WebGL demos.">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="images/113Logo.png" alt="113 Logo" width=10%></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Unity</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="unreal.html">Unreal Engine</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sparkar.html">Spark AR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Javascript/javascript.html">Javascript</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="works.html">Works</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="atom.html">ATOM</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+<body class="theme-dark">
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="#top">
+      <img src="images/113Logo.png" alt="113 Logo" loading="lazy">
+    </a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#playable">Playable</a>
+      <div class="social-icons">
+        <a href="https://github.com/hamdanbasri" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/hamdanbasri/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+        </a>
+        <a href="https://www.youtube.com/@HamdanBasri" target="_blank" aria-label="YouTube">
+          <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+        </a>
+      </div>
     </nav>
+  </header>
 
-    <!-- SIDENAV -->
-    <div class="sidenav">
-        <a class="social-links" href="https://twitter.com/its_danisauraus" target="_blank"><i
-                class="fa-brands fa-twitter fa-xl"></i></a>
-        <a class="social-links" href="https://www.instagram.com/hamdanbasri/" target="_blank"><i
-                class="fa-brands fa-instagram fa-xl"></i></a>
-        <a class="social-links" href="https://www.facebook.com/hamdan.basri.1007" target="_blank"><i
-                class="fa-brands fa-facebook fa-xl"></i></a>
-        <a class="social-links" href="https://www.linkedin.com/in/hamdanbasri/" target="_blank"><i
-                class="fa-brands fa-linkedin fa-xl"></i></a>
-        <a class="social-links" href="https://github.com/hamdanbasri" target="_blank"><i
-                class="fa-brands fa-github fa-xl"></i></a>
-        <a class="social-links" href="https://discord.gg/u45Y22Ve6e" target="_blank"><i
-                class="fa-brands fa-discord fa-xl"></i></a>
-        <a class="social-links" href="https://www.youtube.com/channel/UCHBdYaS8nEWNUQnCfcOvJMw" target="_blank"><i
-                class="fa-brands fa-youtube fa-xl"></i></a>
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="highlight">Engineering Digital Worlds</span>: Imagination Rendered by
+          <span class="signature">hamdan.basri</span>
+        </h1>
+
+        <p class="hero-subtitle">{ Real-time 3D • Interactive Prototyping • Applied Intelligence • Circa 2017 }</p>
+        <a href="#work" class="btn">Explore Work</a>
+      </div>
+      <div class="hero-visual">
+        <img src="images/PPF.jpg" alt="Profile Photo" class="hero-image" loading="lazy">
+      </div>
     </div>
+  </section>
 
-    <!-- OVERLAY -->
-    <section>
-        <div class="overlay">
-            <h1 class="h1-overlay">Experimenting Daily</h1>
+  <!-- What I Do -->
+  <section id="what-i-do" class="section">
+    <h2>What I Do</h2>
+    <div class="container">
+      <p><strong>Bridging art and code.</strong><br>
+        I design and prototype real-time 3D and spatial experiences that merge creative direction with technical precision.
+        My work explores how virtual environments can feel responsive, immersive, and purposeful.
+      </p>
+
+      <p><strong>Rapid iteration, real results.</strong><br>
+        From early concept visualization to functional interactive demos, I develop prototypes using Unreal, Unity, and
+        fine tuning AI models. Each project is built for speed, clarity, and scalability.
+      </p>
+
+      <p><strong>For studios, brands, and creators.</strong><br>
+        I collaborate with teams to visualize ideas, pitch concepts, and develop proofs of concepts for games, on-ground events,
+        virtual productions and digital products.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contributions -->
+  <section id="contributions" class="section">
+    <div class="container" style="text-align: center;">
+      <h2>Contributions</h2>
+      <img 
+        src="https://ghchart.rshah.org/39FF14/hamdanbasri" 
+        alt="GitHub Contributions Chart"
+        class="github-img"
+        loading="lazy"
+        style="max-width: 720px; width: 100%; border-radius: 8px; opacity: 0.9;"
+      >
+      <p style="color: var(--muted); margin-top: 1rem;">Live overview of GitHub activity.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="work" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+
+      <!-- Stats Counter -->
+      <div class="stats-counter">
+        <div class="stat-card stat-companies">
+          <p class="label">Experience</p>
+          <div class="company-logos">
+            <img src="images/Logo_Uniten.png" alt="Uniten Logo" />
+            <img src="images/Logo_ZHL.png" alt="ZHL Logo" />
+            <img src="images/Logo_Flytone.png" alt="Flytone Logo" />
+            <img src="images/Logo_EDT.png" alt="EDT Logo" />
+            <img src="images/Logo_Accenture.png" alt="Accenture Logo" />
+          </div>
         </div>
-    </section>
-
-    <!-- TOP CONTAINTER -->
-    <section>
-        <div class="top-container">
-            <img src="images/113Logo.png" alt="113 Logo" width=20%>
-            <p>Hello, this site is managed by Hamdan Basri, it is used for documentation and sharing information that I
-                find might be helpful to other
-                developers out there.
-                Also while you are here, Try out my playable demo The Extension at <a href="atom.html">ATOM</a>.</p>
+      
+        <div class="stat-card">
+          <p class="label">Projects / Prototypes</p>
+          <h3 class="value">45</h3>
         </div>
-    </section>
-
-    <!-- JS FUNCTION-->
-    <section>
-        <div class="script-container">
-            <div class="row justify-content-md-center">
-                <div class="col-sm">
-                    <h3>What Interests You?</h3>
-                </div>
-            </div>
-
-            <hr class="hr hr-blurry" />
-
-            <div class="row">
-                <div class="col-sm">
-                    <button onclick="Unity()">Unity</button>
-                </div>
-                <div class="col-sm">
-                    <button onclick="Unreal()">Unreal</button>
-                </div>
-                <div class="col-sm">
-                    <button onclick="AI()">AI</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <br />
-
-    <section>
-        <div class="script-container">
-            <div class="row justify-content-md-center">
-                <div class="col-sm">
-                    <p id="opinion">Click on any of the above.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <hr class="hr hr-blurry" />
-
-    <!-- HIGHLIGHTS CONTAINTER -->
-    <section>
-        <h3>Featured Product</h3>
-
-        <div class="video-container">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="720" height="405" src="https://www.youtube.com/embed/mz6uaue8uek?si=4nFFQHibpWKnHouC"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-        
-        <div class="highlights-container">
-            <p>This is a working Claw Machine in Unreal Engine, in the zip file you will find the build file for the
-                application itself.
-                I am also including the Unreal Engine files for you to modify and suit your needs..
-                The packaged app and Unreal Engine file can be downloaded from:</p>
-            <script src="https://gumroad.com/js/gumroad.js"></script>
-            <a class="gumroad-button" href="https://hamdanbasri.gumroad.com/l/clawmachine">Free on</a>
+      
+        <div class="stat-card stat-platforms">
+          <p class="label">Platforms / Devices</p>
+          <div class="icon-row">
+            <i class="fa-brands fa-android" title="Android"></i>
+            <i class="fa-brands fa-apple" title="Apple"></i>
+            <i class="fa-solid fa-vr-cardboard" title="VR"></i>
+            <i class="fa-solid fa-cube" title="AR"></i>
+            <i class="fa-brands fa-unity" title="Unity"></i>
+            <i class="fa-brands fa-bolt" title="Unreal Engine"></i>
+            <i class="fa-solid fa-brain" title="AI"></i>
+          </div>
         </div>
 
-    </section>
+      </div>
 
-    <hr class="hr hr-blurry" />
 
-    <section>
-        <div class="video-container">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="720" height="405" src="https://www.youtube.com/embed/LY1Asjxy9Vo?si=vONf3pbKAoppMvg3"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+
+      <div class="video-grid">
+        <div class="video-card">
+          <iframe src="https://www.youtube.com/embed/mz6uaue8uek" title="Claw Machine" frameborder="0" allowfullscreen
+            loading="lazy"></iframe>
+          <div class="inner">
+            <strong>Claw Machine</strong>
+            <div class="chips">
+              <span class="chip">Unreal</span>
+              <span class="chip">Prototype</span>
+              <a class="chip download-btn" href="https://hamdanbasri.gumroad.com/l/clawmachine" target="_blank"
+                rel="noopener">
+                <i class="fa-solid fa-download"></i> Download Project
+              </a>
             </div>
+          </div>
         </div>
-    </section>
 
-    <!-- MIDDLE CONTAINTER -->
-    <section>
-        <div class="middle-container">
-            <div class="col-header">
-                <h3>Useful Unity Scripts</h3>
-                <p>Quickly implement these commonly used scripts in your project.</p>
-            </div>
-
-            <div class="script-container">
-                <div class="row">
-                    <div class="col rounded-5">
-                        <div class="modal-body p-5">
-                            <div class="script-title">
-                                <h3 class="fw-bold mb-0">Look At Axis Controller()</h3>
-                            </div>
-                            <div class="script-content">
-                                <p>{</p>
-                                <p> Easily set the axis for your LookAt functions;</p>
-                                <p>}</p>
-                            </div>
-                            <a class="btn" href="https://github.com/hamdanbasri/LookAtAxisController"
-                                target="_blank">Open</a>
-                        </div>
-                    </div>
-
-                    <div class="col rounded-5">
-                        <div class="modal-body p-5">
-                            <div class="script-title">
-                                <h3 class="fw-bold mb-0">Lerp Control()</h3>
-                            </div>
-                            <div class="script-content">
-                                <p>{</p>
-                                <p>Easily lerp your Gameobjects to your desired transform;</p>
-                                <p>}</p>
-                            </div>
-                            <a class="btn" href="https://github.com/hamdanbasri/LerpControl" target="_blank">Open</a>
-                        </div>
-                    </div>
-
-                    <div class="col rounded-5">
-                        <div class="modal-body p-5">
-                            <div class="script-title">
-                                <h3 class="fw-bold mb-0">Auto Rotate Control()</h3>
-                            </div>
-                            <div class="script-content">
-                                <p>{</p>
-                                <p>Easy to use Unity's GameObject Auto Rotate Control;</p>
-                                <p>}</p>
-                            </div>
-                            <a class="btn" href="https://github.com/hamdanbasri/AutoRotateControl"
-                                target="_blank">Open</a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <hr class="hr hr-blurry" />
-
-            <div class="col-header">
-                <h3>E-Book by Unity</h3>
-                <p>Free E-Book from Unity.</p>
-            </div>
-
-            <div class="script-container">
-                <div class="row">
-                    <div class="col rounded-5">
-                        <div class="modal-body p-5">
-                            <div class="script-title">
-                                <h3 class="fw-bold mb-0">Level Up Your Code()</h3>
-                            </div>
-                            <div class="script-content">
-                                <p>{</p>
-                                <p>Game Programming Patterns;</p>
-                                <p>}</p>
-                            </div>
-                            <a class="btn"
-                                href="https://resources.unity.com/games/level-up-your-code-with-game-programming-patterns"
-                                target="_blank">Open</a>
-                        </div>
-                    </div>
-
-                    <div class="col rounded-5">
-                        <div class="modal-body p-5">
-                            <div class="script-title">
-                                <h3 class="fw-bold mb-0">C# Style Guide()</h3>
-                            </div>
-                            <div class="script-content">
-                                <p>{</p>
-                                <p>Write cleaner code that scales;</p>
-                                <p>}</p>
-                            </div>
-                            <a class="btn" href="https://resources.unity.com/games/create-code-style-guide-e-book"
-                                target="_blank">Open</a>
-                        </div>
-                    </div>
-
-                    <div class="col rounded-5">
-                        <div class="modal-body p-5">
-                            <div class="script-title">
-                                <h3 class="fw-bold mb-0">Unity For Technical Artists()</h3>
-                            </div>
-                            <div class="script-content">
-                                <p>{</p>
-                                <p>Key toolsets and workflows;</p>
-                                <p>}</p>
-                            </div>
-                            <a class="btn"
-                                href="https://resources.unity.com/games/unity-for-technical-artists-key-toolsets-and-workflows"
-                                target="_blank">Open</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="video-card">
+          <iframe src="https://www.youtube.com/embed/LY1Asjxy9Vo" title="Bad Ape Another Dimension" frameborder="0"
+            allowfullscreen loading="lazy"></iframe>
+          <div class="inner">
+            <strong>Bad Ape Another Dimension</strong>
+            <div class="chips"><span class="chip">Unity</span><span class="chip">Multiplayer</span></div>
+          </div>
         </div>
-    </section>
 
-    <!-- BOTTOM CONTAINER -->
-    <section>
-        <div class="bottom-container reveal">
-            <h3>Get In Touch</h3>
-            <p>Want to talk about game development?.<br>
-                Curious about tools to speed up pipelines?<br>
-                Drop me an email and maybe we can get on a Discord call together.<br> Or follow any of my social
-                media
-                and say hi!</p>
-            <a class="btn" href="mailto:hamdanbasri107@gmail.com">Contact</a>
+        <div class="video-card">
+          <iframe src="https://www.youtube.com/embed/EBA4xa7uOX4" title="Silau Maya — BTS" frameborder="0"
+            allowfullscreen loading="lazy"></iframe>
+          <div class="inner">
+            <strong>Silau Maya — BTS</strong>
+            <div class="chips"><span class="chip">Unreal</span><span class="chip">Virtual Production</span></div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- FOOTER -->
-    <section>
-        <div class="footer">
-            <div class="container">
-                <footer class="align-items-center py-3 my-4">
-                    <div class="align-items-center">
-                        <span class="mb-3 mb-md-0 text-muted">&copy; 2024 Hamdan Basri</span>
-                    </div>
-                </footer>
-            </div>
+  <!-- Project Archive -->
+<section id="project-archive" class="section">
+  <div class="container">
+    <h2>Project Archive</h2>
+    <p>Projects and prototypes that I have been personally involved in throughout the years since 2017.</p>
+    <div id="archive-content"></div>
+  </div>
+</section>
+
+  <!-- Dev Log -->
+  <section id="devlog" class="section">
+    <div class="container devlog">
+      <h2>Dev Log • Stay Focused</h2>
+      <div class="devlog-wrapper">
+        <div class="devlog-image">
+          <img src="images/DevlogUpdate.png" alt="Stay Focused poster" loading="lazy">
         </div>
-    </section>
+        <div class="devlog-feed" id="devlog-feed">
+          <!-- Dynamic dev log entries appear here -->
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- JAVASCRIPT -->
-    <script src="index.js"></script>
+  <!-- Playable -->
+  <section id="playable" class="section">
+    <div class="container">
+      <h2>Playable</h2>
+      <div class="playable">
+        <iframe src="https://itch.io/embed-upload/6694112?color=000000" allowfullscreen loading="lazy"
+          title="ATOM — The Extension"></iframe>
+        <div class="inner">
+          <strong>ATOM — The Extension</strong>
+          <div class="chips"><span class="chip">Unity</span><span class="chip">WebGL</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer>
+    <div>© <span id="year"></span> / Hamdan Basri</div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/scripts.js"></script>
 </body>
-
 </html>

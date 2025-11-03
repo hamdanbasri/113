@@ -1,0 +1,41 @@
+[
+  {
+    "date": "22 October 2025",
+    "entries": [
+      {
+        "title": "Screen Dimming",
+        "content": "To help prevent screen burn-in during long sessions, the app now includes automatic screen dimming. After one minute of inactivity, the screen will gently dim and return to normal brightness once activity is detected."
+      },
+      {
+        "title": "Pause Timer",
+        "content": "You can now pause your focus sessions anytime. The timer will automatically pause if you leave the app, and you can resume your session by pressing Play when you return."
+      }
+    ]
+  },    
+  {
+    "date": "17 October 2025",
+    "entries": [
+      {
+        "title": "New Cycles Indicator",
+        "content": "The previous indicator seems to confuse some users into thinking it's a swipeable element.It's been replaced with rings to represent the cycle.A normal pomodoro technique applies 4 work–break cycles. That explains the 4 cycles in the application."
+      },
+      {
+        "title": "Experimental Functions",
+        "content": "Good news for closed testing users.\nThe 25 minute for closed testing proved to be unnecessarily long.\nTo solve this issue, I am introducing an experimental section in the **Settings Page**.\nEnable it to switch the Timer Duration from *minutes* to *seconds*."
+      },
+      {
+        "title": "Apply Button",
+        "content": "Simple but necessary, the timer now only stops and changes its values in the main page onlyif the user presses the apply button. No more losing track of current focus progress if you clickon the time in the Settings Page."
+      }
+    ]
+  },
+  {
+    "date": "16 October 2025",
+    "entries": [
+      {
+        "title": "Released Closed Testing ver.0.1.0",
+        "content": "Initial testing phase deployed to limited users.\nCollecting feedback on usability and performance."
+      }
+    ]
+  }
+]

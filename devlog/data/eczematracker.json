@@ -1,0 +1,40 @@
+[
+  {
+    "date": "04 November 2025",
+    "entries": [
+      {
+        "title": "Create User",
+        "text": "• First time users greeted with create user page.\n • Scrollwheel birthday selection. \n • Gender selection. \n• Entry editable from **Settings Page**."
+      },
+      {
+        "title": "User Selection",
+        "text": "• Dropdown selection of existing users.\n • Scrollwheel date selection. \n • Scrollwheel meal selection (Breakfast, Lunch, Dinner). "
+      },
+      {
+        "title": "Meal Selection",
+        "text": "• Breakdown of meal (Main, Sides, Snacks). \n • Food Name Entry. \n • Ingredients Entry. \n • Save Function."
+      },
+      {
+        "title": "Bought or Cook",
+        "text": "• Bought or Cook options."
+      },
+      {
+        "title": "Settings Page",
+        "text": "• Preview list of users. \n • Edit users."
+      },
+      {
+        "title": "Results Page Setup",
+        "text": "• Filter users. \n • Display Meal Log. \n • Filter meals."
+      }
+    ]
+  },
+  {
+    "date": "27 October 2025",
+    "entries": [
+      {
+        "title": "Start Page Setup",
+        "text": "• Blockout for the start page.\n • Entry of names."
+      }
+    ]
+  }
+]

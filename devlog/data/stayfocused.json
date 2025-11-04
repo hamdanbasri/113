@@ -1,0 +1,55 @@
+[
+  {
+    "date": "04 November 2025",
+    "entries": [
+      {
+        "title": "Adjustable Screen Brightness",
+        "text": "• You can now set your preferred Normal and Dim brightness levels in the Settings page."
+      },
+      {
+        "title": "Improved Dimming Behavior",
+        "text": "• The app now restores brightness more smoothly after inactivity."
+      }
+    ]
+  }, 
+  {
+    "date": "22 October 2025",
+    "entries": [
+      {
+        "title": "Screen Dimming",
+        "text": "• To help prevent screen burn-in during long sessions, the app now includes automatic screen dimming. \n • After one minute of inactivity, the screen will gently dim and return to normal brightness once activity is detected."
+      },
+      {
+        "title": "Pause Timer",
+        "text": "• You can now pause your focus sessions anytime. \n • The timer will automatically pause if you leave the app, and you can resume your session by pressing Play when you return."
+      }
+    ]
+  },    
+  {
+    "date": "17 October 2025",
+    "entries": [
+      {
+        "title": "New Cycles Indicator",
+        "text": "• The previous indicator seems to confuse some users into thinking it's a swipeable element.\n • It's been replaced with rings to represent the cycle.\n • A normal pomodoro technique applies 4 work–break cycles. That explains the 4 cycles in the application."
+      },
+      {
+        "title": "Experimental Functions",
+        "text": "• Good news for closed testing users.The 25 minute for closed testing proved to be unnecessarily long.\n • To solve this issue, I am introducing an experimental section in the **Settings Page**.\n • Enable it to switch the Timer Duration from _minutes_ to _seconds_."
+      },
+      {
+        "title": "Apply Button",
+        "text": "• Simple but necessary, the timer now only stops and changes its values in the main page \nonly if the user presses the apply button. \n • No more losing track of current focus progress if you click on the time in the Settings Page."
+      }
+    ]
+  },
+  {
+    "date": "16 October 2025",
+    "entries": [
+      {
+        "title": "Released Closed Testing ver.0.1.0",
+        "text": "• Initial testing phase deployed to limited users.\n• Collecting feedback on usability and performance.",
+        "image": "images/StayFocused_Icon.png"
+      }
+    ]
+  }
+]

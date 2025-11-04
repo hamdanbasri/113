@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Focused • Dev Log</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="brand">
+      <a href="../../index.html#devlog">
+        <img src="../../images/113Logo.png" alt="113 Logo">
+      </a>
+    </div>
+  </header>
+
+  <!-- Devlog Content -->
+  <main class="devlog-page">
+    <h1>Dev Log • Eczema Tracker</h1>
+    <div id="log-container"></div>
+  </main>
+
+  <script>
+    async function loadDevlog() {
+      const container = document.getElementById('log-container');
+      const response = await fetch('../data/eczematracker.json');
+      const data = await response.json();
+
+      data.forEach(day => {
+        const section = document.createElement('section');
+        section.className = 'log-entry';
+        section.innerHTML = `<h2 class="log-date">${day.date}</h2>`;
+
+        day.entries.forEach(entry => {
+          const item = document.createElement('div');
+          item.className = 'log-item';
+          item.innerHTML = `
+            <h3>${entry.title}</h3>
+            <p>${entry.text
+              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')   // **bold**
+              .replace(/_(.*?)_/g, '<em>$1</em>')                 // _italic_
+              .replace(/\n/g, '<br>')                             // newlines
+}</p>
+            ${entry.image ? `<img src="../stayfocused/${entry.image}" alt="${entry.title}" loading="lazy">` : ''}
+          `;
+          section.appendChild(item);
+        });
+
+        container.appendChild(section);
+      });
+    }
+
+    loadDevlog();
+  </script>
+</body>
+</html>

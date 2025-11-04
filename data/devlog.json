@@ -1,5 +1,18 @@
 [
   {
+    "date": "04 November 2025",
+    "entries": [
+      {
+        "title": "Adjustable Screen Brightness",
+        "content": "You can now set your preferred Normal and Dim brightness levels in the Settings page."
+      },
+      {
+        "title": "Improved Dimming Behavior",
+        "content": "The app now restores brightness more smoothly after inactivity."
+      }
+    ]
+  }, 
+  {
     "date": "22 October 2025",
     "entries": [
       {

@@ -195,7 +195,7 @@
 async function loadDevlogList() {
   const container = document.getElementById('devlog-list');
   try {
-    const response = await fetch('data/devlog.json');
+    const response = await fetch('./data/devlog.json');
     const logs = await response.json();
 
     logs.forEach(log => {

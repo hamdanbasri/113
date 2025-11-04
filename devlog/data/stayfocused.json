@@ -48,7 +48,7 @@
       {
         "title": "Released Closed Testing ver.0.1.0",
         "text": "• Initial testing phase deployed to limited users.\n• Collecting feedback on usability and performance.",
-        "image": "images/StayFocused_Icon.png"
+        "image": "./images/StayFocused_Icon.png"
       }
     ]
   }

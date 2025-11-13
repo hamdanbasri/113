@@ -1,5 +1,15 @@
 [
   {
+    "date": "13 November 2025",
+    "entries": [
+      {
+        "title": "Released Internal Testing ver.1.0.0",
+        "text": "• Initial testing phase deployed to limited users.\n• Collecting feedback on usability and performance.",
+        "image": "./images/Eczemine_Icon.png"
+      }
+    ]
+  },
+  {
     "date": "04 November 2025",
     "entries": [
       {

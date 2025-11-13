@@ -44,7 +44,7 @@
               .replace(/(^|[^a-zA-Z0-9])_(.*?)_(?=[^a-zA-Z0-9]|$)/g, '$1<em>$2</em>')                 // _italic_
               .replace(/\n/g, '<br>')                             // newlines
 }</p>
-            ${entry.image ? `<img src="../stayfocused/${entry.image}" alt="${entry.title}" loading="lazy">` : ''}
+            ${entry.image ? `<img src="../eczematracker/${entry.image}" alt="${entry.title}" loading="lazy">` : ''}
           `;
           section.appendChild(item);
         });

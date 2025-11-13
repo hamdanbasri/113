@@ -9,11 +9,11 @@
     "badgeUrl": "https://play.google.com/store/apps/details?id=com.hamdanbasri.stayfocus_pomodoro&pcampaignid=web_share"
   },
   {
-    "title": "Eczema Tracker",
-    "description": "Personal health tracker for monitoring eczema patterns and triggers.",
-    "image": "./images/113Logo.png",
+    "title": "Eczemine",
+    "description": "Personal health tracker for monitoring atopic patterns and triggers.",
+    "image": "./devlog/eczematracker/images/Eczemine_Icon.png",
     "url": "devlog/eczematracker/",
-    "lastUpdate": "04 November 2025",
+    "lastUpdate": "13 November 2025",
     "badge": "Internal Testing"
   }
 ]

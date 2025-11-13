@@ -41,7 +41,7 @@
             <h3>${entry.title}</h3>
             <p>${entry.text
               .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')   // **bold**
-              .replace(/_(.*?)_/g, '<em>$1</em>')                 // _italic_
+              .replace(/(^|[^a-zA-Z0-9])_(.*?)_(?=[^a-zA-Z0-9]|$)/g, '$1<em>$2</em>')                 // _italic_
               .replace(/\n/g, '<br>')                             // newlines
 }</p>
             ${entry.image ? `<img src="../stayfocused/${entry.image}" alt="${entry.title}" loading="lazy">` : ''}

@@ -1,5 +1,43 @@
 [
   {
+    "date": "18 November 2025",
+    "entries": [
+      {
+        "title": "Unique Entries",
+        "text": "• Each meal log entry is now unique to prevent duplicate entries."
+      },
+      {
+        "title": "Create User Page Improvements",
+        "text": "• Added list of users into create user page for easier selection.\n• Improved layout and design for better user experience."
+      },
+      {
+        "title": "Added List of Users Page",
+        "text": "• Separated list of users into its own page for better organization."
+      },
+      {
+        "title": "Settings Page",
+        "text": "• Added Privacy Policy and Terms and Conditions links.\n Removed list of users from page."
+      },
+      {
+        "title": "Results Page",
+        "text": "• Redesigned flow and design of the results page for better usability."
+      },
+      {
+        "title": "Next Button Location",
+        "text": "• Adjusted location of the next button for improved navigation."
+      },
+      {
+        "title": "Renamed Files",
+        "text": "• Renamed file names for consistency and clarity."
+      },
+      {
+        "title": "Design Updates",
+        "text": "• Updated UI elements for better user experience.\n• Improved color scheme and typography."
+      }
+    ]
+    
+  },
+  {
     "date": "13 November 2025",
     "entries": [
       {

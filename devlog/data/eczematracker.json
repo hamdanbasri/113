@@ -1,5 +1,14 @@
 [
   {
+    "date": "19 November 2025",
+    "entries": [
+      {
+        "title": "Updated Reactions Page",
+        "text": "• Added body outline widget to select individual body parts.\n • Selected parts is stored in prefs."
+      }
+    ]
+  },
+  {
     "date": "18 November 2025",
     "entries": [
       {
@@ -16,7 +25,7 @@
       },
       {
         "title": "Settings Page",
-        "text": "• Added Privacy Policy and Terms and Conditions links.\n Removed list of users from page."
+        "text": "• Added Privacy Policy and Terms and Conditions links.\n • Removed list of users from page."
       },
       {
         "title": "Results Page",

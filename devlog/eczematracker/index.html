@@ -39,11 +39,18 @@
           item.className = 'log-item';
           item.innerHTML = `
             <h3>${entry.title}</h3>
-            <p>${entry.text
-              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')   // **bold**
-              .replace(/(^|[^a-zA-Z0-9])_(.*?)_(?=[^a-zA-Z0-9]|$)/g, '$1<em>$2</em>')                 // _italic_
-              .replace(/\n/g, '<br>')                             // newlines
+            <p>${
+            entry.text
+              // CODE BLOCKS ``` ```
+              .replace(/```([^`]+)```/gs, '<pre><code>$1</code></pre>')
+              // bold
+              .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+              // italic
+              .replace(/(^|[^a-zA-Z0-9])_(.*?)_(?=[^a-zA-Z0-9]|$)/g, '$1<em>$2</em>')
+              // newlines (but don't break inside code blocks)
+              .replace(/\n/g, '<br>')
 }</p>
+
             ${entry.image ? `<img src="../eczematracker/${entry.image}" alt="${entry.title}" loading="lazy">` : ''}
           `;
           section.appendChild(item);

@@ -1,10 +1,19 @@
 [
   {
+    "date": "26 November 2025_1",
+    "entries": [
+      {
+        "title": "Results Page Updates",
+        "text": "• Bug fixes on displayed data.\n • Clean Results Page display.\n • Added symptoms data from reactions page."
+      }
+    ]
+  },
+  {
     "date": "24 November 2025_2",
     "entries": [
       {
         "title": "Internal Release",
-        "text": "• Adjusted saving values to map with meal type..\n • All cards are being displayed in Results page."
+        "text": "• Adjusted saving values to map with meal type.\n • All cards are being displayed in Results page."
       }
     ]
   },

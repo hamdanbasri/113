@@ -1,10 +1,35 @@
 [
   {
+    "date": "28 November 2025_1",
+    "entries": [
+      {
+        "title": "Summary Page",
+        "text": "• Weekly and Monthly view shows a chart of the itch, rash and mood for a user.\n • Summary is also added to check for common allergens.\n"
+      },
+      {
+        "title": "Compare Meals Page",
+        "text": "• User can now compare meals between two members for a specific date."
+      },
+      {
+        "title": "Results Page Update",
+        "text": "• Added Compare and Summary Buttons. \n• Users can now edit and delete entries from the Results Page.\n"
+      },
+      {
+        "title": "Backend",
+        "text": "• Data read/write into firebase.\n • App Integrity Enforcements\n"
+      },
+      {
+        "title": "Google Authentication",
+        "text": "• Users can now login via Google\n"
+      }
+    ]
+  },
+  {
     "date": "27 November 2025_1",
     "entries": [
       {
         "title": "Edit/Delete Entry Buttons",
-        "text": "• Added Delete Entry button.\n • Added Edit Entry Button.\n •"
+        "text": "• Added Delete Entry button.\n • Added Edit Entry Button.\n"
       }
     ]
   },

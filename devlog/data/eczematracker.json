@@ -1,5 +1,14 @@
 [
   {
+    "date": "02 December 2025_1",
+    "entries": [
+      {
+        "title": "Image upload function",
+        "text": "• User is able to upload up to 6 images\n• Images are stitched together\n• Images now appear in results page"
+      }
+    ]
+  },
+  {
     "date": "01 December 2025_1",
     "entries": [
       {
@@ -90,11 +99,9 @@
         "text": "• Rash level and Reactions are overwriting data in Breakfast even though entry is under Lunch.\n • Inserting data in medications crashes the app **List dynamic** is not a subtype of **List String**."
       },
       {
-  "title": "Meal Log Structure",
-  "text": "Example log for 'John Doe' on 2025-11-24```{\n  \"meals\": {\n    \"breakfast\": {\n      \"boughtOrCooked\": \"Cooked\",\n      \"main\": \"Oatmeal\",\n      \"sides\": \"Banana\",\n      \"snacks\": \"None\",\n      \"drinks\": \"Water\",\n      \"ingredients\": [\"Oats\", \"Milk\", \"Honey\"],\n\n      \"reactions\": [\"Head\", \"Arm_L\"],\n      \"symptoms\": [\"Red patches\"],\n      \"hasReaction\": true,\n\n      \"allergies\": [\"Dairy\", \"Gluten\"],\n\n      \"medications\": [\"Hydrocortisone cream\"],\n\n      \"rash\": {\n        \"rashLevel\": 3.0,\n        \"itchLevel\": 2.0,\n        \"moodLevel\": 4.0\n      }\n    },\n\n    \"lunch\": {\n      \"boughtOrCooked\": \"Bought\",\n      \"main\": \"Chicken Rice\",\n      \"sides\": \"\",\n      \"snacks\": \"None\",\n      \"drinks\": \"Tea\",\n      \"ingredients\": [\"Chicken\", \"Rice\", \"Soy Sauce\"],\n\n      \"reactions\": [],\n      \"symptoms\": [],\n      \"hasReaction\": false,\n\n      \"allergies\": [],\n      \"medications\": [],\n      \"rash\": null\n    },\n\n    \"dinner\": {\n      \"boughtOrCooked\": \"Cooked\",\n      \"main\": \"Pasta\",\n      \"sides\": \"Salad\",\n      \"snacks\": \"Cookies\",\n      \"drinks\": \"Juice\",\n      \"ingredients\": [\"Pasta\", \"Tomato\", \"Cheese\"],\n\n      \"reactions\": [\"Neck\"],\n      \"symptoms\": [\"Mild itch\"],\n      \"hasReaction\": true,\n\n      \"allergies\": [\"Dairy\"],\n      \"medications\": [\"Moisturizer\"],\n\n      \"rash\": {\n        \"rashLevel\": 1.0,\n        \"itchLevel\": 1.0,\n        \"moodLevel\": 5.0\n      }\n    }\n  }\n}\n```"
-}
-
-
+        "title": "Meal Log Structure",
+        "text": "Example log for 'John Doe' on 2025-11-24```{\n  \"meals\": {\n    \"breakfast\": {\n      \"boughtOrCooked\": \"Cooked\",\n      \"main\": \"Oatmeal\",\n      \"sides\": \"Banana\",\n      \"snacks\": \"None\",\n      \"drinks\": \"Water\",\n      \"ingredients\": [\"Oats\", \"Milk\", \"Honey\"],\n\n      \"reactions\": [\"Head\", \"Arm_L\"],\n      \"symptoms\": [\"Red patches\"],\n      \"hasReaction\": true,\n\n      \"allergies\": [\"Dairy\", \"Gluten\"],\n\n      \"medications\": [\"Hydrocortisone cream\"],\n\n      \"rash\": {\n        \"rashLevel\": 3.0,\n        \"itchLevel\": 2.0,\n        \"moodLevel\": 4.0\n      }\n    },\n\n    \"lunch\": {\n      \"boughtOrCooked\": \"Bought\",\n      \"main\": \"Chicken Rice\",\n      \"sides\": \"\",\n      \"snacks\": \"None\",\n      \"drinks\": \"Tea\",\n      \"ingredients\": [\"Chicken\", \"Rice\", \"Soy Sauce\"],\n\n      \"reactions\": [],\n      \"symptoms\": [],\n      \"hasReaction\": false,\n\n      \"allergies\": [],\n      \"medications\": [],\n      \"rash\": null\n    },\n\n    \"dinner\": {\n      \"boughtOrCooked\": \"Cooked\",\n      \"main\": \"Pasta\",\n      \"sides\": \"Salad\",\n      \"snacks\": \"Cookies\",\n      \"drinks\": \"Juice\",\n      \"ingredients\": [\"Pasta\", \"Tomato\", \"Cheese\"],\n\n      \"reactions\": [\"Neck\"],\n      \"symptoms\": [\"Mild itch\"],\n      \"hasReaction\": true,\n\n      \"allergies\": [\"Dairy\"],\n      \"medications\": [\"Moisturizer\"],\n\n      \"rash\": {\n        \"rashLevel\": 1.0,\n        \"itchLevel\": 1.0,\n        \"moodLevel\": 5.0\n      }\n    }\n  }\n}\n```"
+      }
     ]
   },
   {
@@ -142,7 +149,6 @@
         "text": "• Updated UI elements for better user experience.\n• Improved color scheme and typography."
       }
     ]
-    
   },
   {
     "date": "13 November 2025",

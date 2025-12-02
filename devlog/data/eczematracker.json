@@ -1,5 +1,14 @@
 [
   {
+    "date": "02 December 2025_2",
+    "entries": [
+      {
+        "title": "Image Upload Updates",
+        "text": "• Image now store in storage\n• Able to upload as standalone\n• Able to upload as family group (admin/members)\n• Images display in results page individually"
+      }
+    ]
+  },
+  {
     "date": "02 December 2025_1",
     "entries": [
       {

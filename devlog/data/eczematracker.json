@@ -1,5 +1,14 @@
 [
   {
+    "date": "03 December 2025_1",
+    "entries": [
+      {
+        "title": "Improved Image Uploads and  Added Daily Notification",
+        "text": "• Images are compressed before uploading.\n• Upload overlay is added.\n• Images are cached in results page.\n• Daily notification with random messages set up."
+      }
+    ]
+  },
+  {
     "date": "02 December 2025_2",
     "entries": [
       {

@@ -1,5 +1,14 @@
 [
   {
+    "date": "04 December 2025_1",
+    "entries": [
+      {
+        "title": "Improved Data Caching and Daily Notifications",
+        "text": "• Stale data fixed for joined members\n• Notification time adjusted\n• User Management Updates"
+      }
+    ]
+  },
+  {
     "date": "03 December 2025_1",
     "entries": [
       {

@@ -1,5 +1,14 @@
 [
   {
+    "date": "05 December 2025_1",
+    "entries": [
+      {
+        "title": "Allergies Updated & TextField constraints",
+        "text": "• Allow custom allergies.\n• Constraints on all textfields.\n• Updated results page viewer and edit mode."
+      }
+    ]
+  },
+  {
     "date": "04 December 2025_1",
     "entries": [
       {

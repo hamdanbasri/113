@@ -1,5 +1,14 @@
 [
   {
+    "date": "06 December 2025_1",
+    "entries": [
+      {
+        "title": "Allergies & Medications list is loaded from Database",
+        "text": "• Allergies, medications and reactions list, pulls list from database.\n• Cache info based on version."
+      }
+    ]
+  },
+  {
     "date": "05 December 2025_1",
     "entries": [
       {

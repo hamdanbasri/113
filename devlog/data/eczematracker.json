@@ -1,5 +1,34 @@
 [
   {
+    "date": "12 December 2025_1",
+    "entries": [
+      {
+        "title": "Remove Button on TextEditingControllers",
+        "text": "• All TextEditingController has been updated with a remove button."
+      },
+      {
+        "title": "Meal Entry Text Count",
+        "text": "• Entries for meals Main, Sides, Snacks, Drinks and Ingredients text limit increased to 140."
+      },
+      {
+        "title": "Notification Checks",
+        "text": "• Upon login, app checks if notifications are enabled."
+      },
+      {
+        "title": "Ads Size Adjustment",
+        "text": "• Ads should now have a proper sizing to easily close the ads."
+      },
+      {
+        "title": "Sorting List of Allergies and Medications",
+        "text": "• Allergies and Medications now has internal sorting for easier categorization."
+      },
+      {
+        "title": "Results Page Updates",
+        "text": "• Added a dropdown that contains Level of Rash/Itch/Mood, Body Map and Show Images for a cleaner look."
+      }
+    ]
+  },
+  {
     "date": "08 December 2025_1",
     "entries": [
       {

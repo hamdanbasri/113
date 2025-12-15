@@ -1,5 +1,14 @@
 [
   {
+    "date": "16 December 2025_1",
+    "entries": [
+      {
+        "title": "Banner Ads",
+        "text": "• App now contains Banner Ads that will dissappear when focus session started."
+      }
+    ]
+  },
+  {
     "date": "13 November 2025",
     "entries": [
       {
@@ -16,7 +25,7 @@
         "text": "• Production access is under review. \n • Stay tuned for updates on the app's availability to a wider audience."
       }
     ]
-  }, 
+  },
   {
     "date": "04 November 2025",
     "entries": [
@@ -29,7 +38,7 @@
         "text": "• The app now restores brightness more smoothly after inactivity."
       }
     ]
-  }, 
+  },
   {
     "date": "22 October 2025",
     "entries": [
@@ -42,7 +51,7 @@
         "text": "• You can now pause your focus sessions anytime. \n • The timer will automatically pause if you leave the app, and you can resume your session by pressing Play when you return."
       }
     ]
-  },    
+  },
   {
     "date": "17 October 2025",
     "entries": [

@@ -1,5 +1,30 @@
 [
   {
+    "date": "27 December 2025_1",
+    "entries": [
+      {
+        "title": "Guardianship Enabled",
+        "text": "• Each created user has their own guardian that is set by the admin."
+      },
+      {
+        "title": "Profile Page Updated",
+        "text": "• Updates on stats linking to users."
+      },
+      {
+        "title": "Results Page Updated",
+        "text": "• Guardianship enforced for editing and removing entries."
+      },
+      {
+        "title": "Meal Entry Updates",
+        "text": "• Guardianship enforced for submitting new meal logs."
+      },
+      {
+        "title": "List of users page Updated",
+        "text": "• Admin now has more control to allow management of created users."
+      }
+    ]
+  },
+  {
     "date": "18 December 2025_2",
     "entries": [
       {

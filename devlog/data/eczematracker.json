@@ -1,5 +1,18 @@
 [
   {
+    "date": "04 January 2025_1",
+    "entries": [
+      {
+        "title": "Theme Updates",
+        "text": "• The app has a new fresh coat of paint."
+      },
+      {
+        "title": "Profile Page Updates",
+        "text": "• The main entry after logging in is now the profile page.\n• Profile page now can navigate to:\n- Meal Entry Page\n- Results Page\n- Manage Family Page\n- Settings Page"
+      }
+    ]
+  },
+  {
     "date": "27 December 2025_1",
     "entries": [
       {

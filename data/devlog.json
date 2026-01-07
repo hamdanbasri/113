@@ -4,16 +4,16 @@
     "description": "Boost your focus and productivity with Stay Focused, a Pomodoro timer wrapped in the calm, mesmerizing motion of a lava lamp theme. Designed to help you stay present and balanced, each session flows smoothly like liquid light — keeping your mind focused while easing stress.",
     "image": "./devlog/stayfocused/images/StayFocused_Icon.png",
     "url": "devlog/stayfocused/",
-    "lastUpdate": "13 November 2025",
+    "lastUpdate": "16 December 2025",
     "badge": "Download on Google Play",
     "badgeUrl": "https://play.google.com/store/apps/details?id=com.hamdanbasri.stayfocus_pomodoro&pcampaignid=web_share"
   },
   {
     "title": "Eczemine",
-    "description": "Personal health tracker for monitoring atopic patterns and triggers.",
+    "description": "Eczemine helps you track meals, identify flare-up patterns, and keep your family informed. Take control of your skin journey today.",
     "image": "./devlog/eczematracker/images/Eczemine_Icon.png",
     "url": "devlog/eczematracker/",
-    "lastUpdate": "02 December 2025",
-    "badge": "Internal Testing"
+    "lastUpdate": "07 January 2026",
+    "badge": "Closed Testing"
   }
 ]
